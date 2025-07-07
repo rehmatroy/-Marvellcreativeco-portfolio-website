@@ -359,7 +359,7 @@ body{
     margin: 0 auto;
 }
 .top-content-section .main-text-section .top-badge{
-    width: 200px;
+    width: 196px;
     background-color:rgba(219,234,254, 0.8);
     color: #0066FF;
     border-radius: 50px;
@@ -381,6 +381,18 @@ body{
 .main-text-section .hero-title{
     font-size: 3.5rem !important;
     line-height: 1.1 !important;
+}
+.process-page-badge{
+    width: 170px !important;
+}
+.blogs-page-badge{
+    width: 185px !important;
+}
+.portfolio-page-badge{
+    width: 168px !important;
+}
+.contact-page-badge{
+    width: 125px !important;
 }
 
 
