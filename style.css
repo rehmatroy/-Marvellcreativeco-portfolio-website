@@ -124,6 +124,7 @@ body{
 }
 
 /* About Section style */
+
 .about-text .secondary-paragraph-text{
     font-size: 17px;
     letter-spacing: 0.3px;
@@ -207,8 +208,8 @@ body{
     margin-top: 30px;
 }  
 .step-number {
-    width: 70px;
-    height: 70px;
+    width: 68px;
+    height: 68px;
     margin: 0 auto 20px;  
     background: linear-gradient(135deg, #3366FF, #00FFAA);
     color: white;
@@ -348,7 +349,7 @@ body{
     box-shadow: none;
  }
 
- /* Top Contetn Section style  */
+ /* Top Content Section style  */
 
 .top-content-section{
     background-image: linear-gradient(135deg, #f9fafb, #eff6ff);
@@ -395,6 +396,94 @@ body{
     width: 125px !important;
 }
 
+/* About Page style */
+
+.about-section .about-text-cards{
+    width: 100% !important;
+    box-shadow: 1px 8px 12px rgba(0, 0, 0, 0.08) !important;
+    border-radius: 8px !important;
+}
+.about-section .about-text-cards #about-vision{ 
+    background: linear-gradient(135deg,rgb(17, 81, 171),rgb(12, 187, 129));
+}
+.about-section .about-text-cards:hover .step-number  {
+    background: linear-gradient(135deg,rgb(28, 114, 235),rgb(17, 224, 155)) !important  ;
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+}
+.about-section .about-text-cards .step-number i {
+   font-size: 1.5rem;
+}
+
+
+/* Our Core Values Section */
+.process-section .process-step #inovation{
+    background: linear-gradient(to right, #2563eb, #0891b2) !important;
+}
+.process-section .process-step:hover #inovation {
+    background: linear-gradient(to right,rgb(43, 92, 228),rgb(38, 172, 234)) !important;
+}
+.process-section .process-step #client-success{
+    background: linear-gradient(to right, #16a34a, #0d9488) !important;
+}
+.process-section .process-step:hover #client-success {
+    background: linear-gradient(to right, rgb(36, 186, 91), rgb(40, 183, 171)) !important;
+}
+.process-section .process-step #excellence{
+    background: linear-gradient(to right, #9333ea, #db2777) !important;
+}
+.process-section .process-step:hover #excellence {
+    background: linear-gradient(to right, rgb(171, 93, 245), rgb(234, 97, 159)) !important;
+}
+
+/* Our Team Section style */
+.team-section .team-card{
+    box-shadow: 1px 8px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.team-section .team-card #accoupation-1{
+    color: #2563eb;
+}
+.team-section .team-card #accoupation-2{
+    color: #16a34a;
+}
+.team-section .team-card #accoupation-3{
+    color:#9333ea;
+}
+.team-section .team-card .social-icons i{
+    font-size: 1.3rem;
+    color:rgb(42, 97, 186);
+}
+.team-section .team-card .social-icons i:hover{
+    color:rgba(27, 192, 137, 0.81);
+    transition: color 0.3s ease;
+}
+
+
+/* Process Page style */
+.:hover{
+    box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.process-cards .process-check-list p i {
+    color: #00FFAA;
+    font-size: 1.3rem !important;
+}
+#process-cards-icon{
+    width: 100px !important;
+    height: 100px !important;
+    margin: 0 auto 20px !important;  
+    background: linear-gradient(135deg,rgba(51, 102, 255, 0.18),rgba(0, 255, 170, 0.17)) !important;
+    font-size: 40px;
+    transition: transform 0.3s ease;
+}
+#process-cards-icon i{
+    color:rgb(15, 206, 142) !important;
+    font-size: 40px !important;
+}
+
 
 /* Media Curies */
 @media (max-width: 992px) {
@@ -414,7 +503,8 @@ body{
     .hero-section .hero-check-list span{
         font-size: 14px;
     }
-    /* about page style (top-content-section) */
+
+    /* About page style (top-content-section) */
     .top-content-section{
         padding-top: 5rem !important;
     }
@@ -423,6 +513,9 @@ body{
     }
     .main-text-section .hero-text{
         font-size: 1.1rem !important;
+    }
+    #process-cards-icon{
+        margin-left: 0 !important;
     }
 }
 
@@ -443,6 +536,9 @@ body{
     }
     .about-text{
         width: 90% !important;
+    }
+    .about-section .about-text-cards{
+        width: 100% !important;
     }
     .primary-heading{
         font-size: 2rem !important;
@@ -485,6 +581,14 @@ body{
         padding-right: 0 !important;
         padding-left: 0 !important;
     }
+    .about-section{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .team-section{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
 }
 
 @media (max-width: 572px) {
@@ -495,6 +599,25 @@ body{
     }
     .marketing-banner-buttons a{
         margin-bottom: 15px;
+    }
+     .process-cards .process-cards-content{
+        display:flex !important;
+        flex-direction: column !important;
+        justify-content: left !important;
+        text-align: left !important;            
+    }
+    .process-cards .process-cards-content .process-steps{
+        margin-right: auto !important;
+     }
+     .process-cards .process-cards-content .process-steps .step-number{
+        margin-bottom: 0 !important;
+     }
+    .process-cards .process-check-list{
+        display: flex !important;
+        flex-direction: column;
+    }
+    .first-checklist{
+        width:100% !important;
     }
 }
 
@@ -510,5 +633,3 @@ body{
         margin-left: 0px !important;
     }
 }
-
-
