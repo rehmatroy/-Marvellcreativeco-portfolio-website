@@ -462,7 +462,324 @@ body{
 }
 
 
+/* Generative AI Services Page style  */
+
+#Generative-ai-top-section{
+    background: linear-gradient(to bottom right, #ecfeff, #eff6ff) !important;
+}
+.Services-page-badge{
+    width: 226px !important;
+}
+.top-content-section .services-top-icon{
+    width: 78px;
+    height: 75px;
+    margin: 0 auto 20px;  
+    background: linear-gradient(to right, #06b6d4, #3b82f6) !important;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+}
+.top-content-section .services-page-icon{
+    font-size: 1.9rem;
+}
+.top-content-section .services-main-text{
+    background-image: linear-gradient(90deg, #06b6d4 0%, #3b82f6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.top-content-section #services-page-btn{
+    background-image: linear-gradient(90deg, #06b6d4 0%, #3b82f6 100%);
+}
+.top-content-section #services-page-btn:hover{
+    background-image: linear-gradient(90deg,rgb(17, 152, 176) 0%,rgb(29, 98, 209) 90%);
+}
+.generative-ai-divider{
+    width: 80px;
+    border: 2px solid #06b6d4;
+}
+.process-cards .process-cards-content .services-check-icon{
+    font-size:20px !important;
+    margin-top:5px;
+    color: #06b6d4;
+}
+#Generative-ai-marketing-banner{
+    background-image: linear-gradient(135deg, #06b6d4, #3b82f6);
+}
+
+
+/* WorkFlow Automation Page Style */
+
+#Workflow-automation-top-section{
+    background: linear-gradient(to bottom right, #f0fdfa, #f0fdf4);
+}
+#workflow-automation-top-icon{
+    background: linear-gradient(to right, #22c55e, #14b8a6) !important;
+}
+.top-content-section .workflow-automation-badge{
+    background-color:rgba(34, 197, 94, 0.08) !important;
+    color: #22c55e !important;
+    width: 214px !important;
+}
+.top-content-section .workflow-automation-badge:hover{
+    background-color:rgba(34, 182, 88, 0.16) !important;
+}
+.top-content-section .workflow-automation-main-text{
+    background-image: linear-gradient(90deg, #22c55e 0%, #14b8a6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.top-content-section #workflow-automation-page-btn{
+    background-image: linear-gradient(90deg, #22c55e 0%, #14b8a6 100%);
+}
+.top-content-section #workflow-automation-page-btn:hover{
+    background-image : linear-gradient(90deg,rgb(24, 165, 76) 0%,rgb(14, 150, 134) 100%);
+}
+.workflow-automation-divider{
+    width: 80px;
+    border: 2px solid #14b8a6;
+}
+.process-cards .process-cards-content .workflow-automation-check-icon{
+    color: #14b8a6;
+    font-size: 20px;
+    margin-top:5px;
+}
+
+
+/* Machine Learning Page Style */
+
+#machine-learning-top-section{
+    background: linear-gradient(to bottom right, #faf5ff, #fdf2f8);
+}
+#machine-learning-top-icon{
+    background: linear-gradient(to right, #a855f7, #ec4899) !important;
+}
+.top-content-section .machine-learning-badge{
+    background-color:rgba(169, 85, 247, 0.1) !important;
+    color: #a855f7 !important;
+    width: 282px !important;
+}
+.top-content-section .machine-learning-badge:hover{
+    background-color:rgba(138, 55, 216, 0.16) !important;
+}
+.top-content-section .machine-learning-main-text{
+    background-image: linear-gradient(90deg, #a855f7 0%, #ec4899 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.top-content-section #machine-learning-page-btn{
+    background-image: linear-gradient(90deg, #a855f7 0%, #ec4899 100%);
+}
+.top-content-section #machine-learning-page-btn:hover{
+    background-image: linear-gradient(90deg,rgb(143, 58, 222) 0%,rgb(212, 46, 129) 100%);
+}
+.machine-learning-divider{
+    width: 80px;
+    border: 2px solid #a855f7;
+}
+.process-cards .process-cards-content .machine-learning-check-icon{
+    color: #a855f7;
+    font-size: 20px;
+    margin-top:5px;
+}
+
+
+/* Voice and Speach Page Style */
+
+#voice-speach-top-section{
+    background: linear-gradient(to bottom right, #fff7ed, #fef2f2);
+}
+#voice-speach-top-icon{
+    background: linear-gradient(to right, #f97316, #ef4444)!important;
+}
+.top-content-section .voice-speach-badge{
+    background-color:rgba(249, 116, 22, 0.09) !important;
+    color: #f97316 !important;
+    width: 282px !important;
+}
+.top-content-section .voice-speach-badge:hover{
+    background-color:rgba(236, 111, 21, 0.15) !important;  
+}
+.top-content-section .voice-speach-main-text{
+    background-image: linear-gradient(90deg, #f97316 0%, #ef4444 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.top-content-section #voice-speach-page-btn{
+    background-image: linear-gradient(90deg, #f97316 0%, #ef4444 100%);
+}
+.top-content-section #voice-speach-page-btn:hover{
+    background-image: linear-gradient(90deg,rgb(230, 108, 20) 0%,rgb(222, 48, 48) 100%);
+}
+.voice-speach-divider{
+    width: 80px;
+    border: 2px solid #f97316;
+}
+.process-cards .process-cards-content .voice-speach-check-icon{
+    color: #f97316;
+    font-size: 20px;
+    margin-top:5px;
+}
+
+
+/* 3D Modeeling Page Style */
+
+#ThreeD-modeling-top-section{
+    background: linear-gradient(to bottom right, #ecfeff, #eff6ff);
+}
+#ThreeD-modeling-top-icon{
+    background: linear-gradient(to right, #06b6d4, #3b82f6)!important;
+}
+.top-content-section .ThreeD-modeling-badge{
+    background-color:rgba(6, 181, 212, 0.04) important;
+    color:rgba(8, 143, 167, 0.9) !important;
+    width: 194px !important;
+}
+.top-content-section .ThreeD-modeling-main-text{
+    background-image: linear-gradient(90deg, #0891b2 0%, #2563eb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.top-content-section #ThreeD-modeling-page-btn{
+    background-image: linear-gradient(90deg, #0891b2 0%, #2563eb 100%);
+}
+.top-content-section #ThreeD-modeling-page-btn:hover{
+    background-image: linear-gradient(90deg,rgb(11, 128, 158) 0%,rgb(18, 76, 203) 100%);
+}
+.ThreeD-modeling-divider{
+    width: 80px;
+    border: 2px solid #2563eb;
+}
+.process-cards .process-cards-content .ThreeD-modeling-check-icon{
+    color: #2563eb;
+    font-size: 20px;
+    margin-top:5px;
+}
+
+
+/* Designing and Developemnt Page Style */
+
+#Designing-Development-top-section{
+    background: linear-gradient(to bottom right, #fdf2f8, #fff1f2);
+}
+#Designing-Development-top-icon{
+    background: linear-gradient(to right, #f43f5e, #ec4899)!important;
+}
+.top-content-section .Designing-Development-badge{
+    background-color:rgba(244, 63, 93, 0.09) !important;
+    color: #f43f5e !important;
+    width: 250px !important;
+}
+.top-content-section .Designing-Development-badge:hover{
+    background-color:rgba(231, 47, 77, 0.15) !important;
+}
+.top-content-section .Designing-Development-main-text{
+    background-image: linear-gradient(90deg, #f43f5e 0%, #ec4899 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.top-content-section #Designing-Development-page-btn{
+    background-image: linear-gradient(90deg, #f43f5e 0%, #ec4899 100%);
+}
+.top-content-section #Designing-Development-page-btn:hover{
+    background-image: linear-gradient(90deg,rgb(216, 45, 73) 0%,rgb(210, 42, 126) 100%);
+}
+.Designing-Development-divider{
+    width: 80px;
+    border: 2px solid #f43f5e;
+}
+.process-cards .process-cards-content .Designing-Development-check-icon{
+    color: #f43f5e;
+    font-size: 20px;
+    margin-top:5px;
+}
+
+/* Python-Automation Page Style */
+
+#python-automation-top-section{
+    background: linear-gradient(to bottom right, #fff7ed, #fefce8);
+}
+#python-automation-top-icon{
+    background: linear-gradient(to right, #f97316, #eab308)!important;
+}
+.top-content-section .python-automation-badge{
+    background-color:rgba(234, 178, 8, 0.1) !important;
+    color: #f97316 !important;
+    width: 240px !important;
+}
+.top-content-section .python-automation-badge:hover{
+    background-color:rgba(194, 89, 14, 0.13) !important;
+}
+.top-content-section .python-automation-main-text{
+    background-image: linear-gradient(90deg, #f97316 0%, #eab308 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.top-content-section #python-automation-page-btn{
+    background-image: linear-gradient(90deg, #f97316 0%, #eab308 100%);
+}
+.top-content-section #python-automation-page-btn:hover{
+    background-image: linear-gradient(90deg,rgb(222, 102, 17) 0%,rgb(206, 158, 12) 100%);
+}
+.python-automation-divider{
+    width: 80px;
+    border: 2px solid #f97316;
+}
+.process-cards .process-cards-content .python-automation-check-icon{
+    color: #f97316;
+    font-size: 20px;
+    margin-top:5px;
+}
+
+
+/* Consultion and Coaching Page Style */
+
+#consultion-coaching-top-section{
+    background: linear-gradient(to bottom right, #eef2ff, #faf5ff);
+}
+#consultion-coaching-top-icon{
+    background: linear-gradient(to right, #6366f1, #a855f7)!important;
+}
+.top-content-section .consultion-coaching-badge{
+    background-color:rgba(99, 101, 241, 0.09) !important;
+    color: #6366f1 !important;
+    width: 194px !important;
+}
+.top-content-section .consultion-coaching-badge:hover{
+    background-color:rgba(99, 101, 241, 0.18) !important;
+}
+.top-content-section .consultion-coaching-main-text{
+    background-image: linear-gradient(90deg, #6366f1 0%, #a855f7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.top-content-section #consultion-coaching-page-btn{
+    background-image: linear-gradient(90deg, #6366f1 0%, #a855f7 100%);
+}
+.top-content-section #consultion-coaching-page-btn:hover{
+    background-image: linear-gradient(90deg,rgb(79, 82, 230) 0%,rgb(141, 52, 224) 100%);
+}
+.consultion-coaching-divider{
+    width: 80px;
+    border: 2px solid #6366f1;
+}
+.process-cards .process-cards-content .consultion-coaching-check-icon{
+    color: #6366f1;
+    font-size: 20px;
+    margin-top:5px;
+}
+
+
 /* Process Page style */
+
+.process-cards{
+    width:100%;
+    height: 100%;
+}
 .process-cards:hover{
     box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -483,6 +800,7 @@ body{
     color:rgb(15, 206, 142) !important;
     font-size: 40px !important;
 }
+
 
 
 /* Media Curies */
@@ -605,6 +923,14 @@ body{
         flex-direction: column !important;
         justify-content: left !important;
         text-align: left !important;            
+    }
+    .process-cards #services-cards-content{
+        display: flex;
+        flex-direction: row !important;
+        justify-Content: left !important;
+    }
+    .process-cards #services-cards-content h3{
+        font-size: 18px !important;
     }
     .process-cards .process-cards-content .process-steps{
         margin-right: auto !important;
