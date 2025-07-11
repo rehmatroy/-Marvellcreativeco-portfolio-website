@@ -802,6 +802,79 @@ body{
 }
 
 
+/* Portfolio Page Style */
+#portfolio-cards-section .card:hover{
+    box-shadow: 1px 12px 12px rgba(0, 0, 0, 0.1);
+    transition: .3s;
+}
+#portfolio-cards-section .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transform-origin: center center;
+    transition: transform 0.4s ease;
+    display: block;
+    z-index: 1;
+    position: relative;
+}
+
+#portfolio-cards-section .card:hover img {
+    transform: scale(1.1); 
+}
+
+#portfolio-cards-section .card .card-badge{
+    top:20px;
+    left: 20px;
+    z-index: 3;
+    font-size: 13px;
+    color: #000000bc;
+    font-weight: 500;
+}
+#portfolio-cards-section .card .card-body{
+    position: relative;
+    z-index: 2;
+    background-color: white;
+}
+#portfolio-cards-section .card .card-badges{
+    font-size: 13px;
+    color: #000000bc;
+    font-weight: 500;
+    text-wrap: nowrap;
+}
+#portfolio-cards-section .card .portfolio-card-text{
+    font-weight: 500;
+}
+#portfolio-cards-section .card .view-icon{
+    font-size: 0.8rem !important;
+    background-color: #ffffff;
+    padding: 10px 12px;
+    transition: 0.3s ease;
+
+}
+#portfolio-cards-section .card .view-icon:hover{
+    background-color: #d9e4f1cc;
+    over-flow: hidden;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+.process-step .portfolio-projcet-complete-text{
+    color: #9333ea;
+}
+.process-step .portfolio-client-statisfy-text{
+    color: #2563eb;
+}
+.process-step .portfolio-happy-client-text{
+    color: #16a34a;
+}
+.process-step .portfolio-experience-text{
+    color: #ea580c;
+}
+
+/* Blogs page style */
+
+#portfolio-cards-section #blogs-cards:hover h5{
+    color: #0066FF;
+}
 
 /* Media Curies */
 @media (max-width: 992px) {
@@ -944,6 +1017,15 @@ body{
     }
     .first-checklist{
         width:100% !important;
+    }
+    #portfolio-cards-section .card .card-badges-head{
+        display:flex !important;
+        flex-direction: column !important;
+        justify-content: start !important;
+        align-items: start !important;
+    }
+    #portfolio-cards-section .card .card-badges-head .card-badges{
+        margin:10px 0 !important;
     }
 }
 
