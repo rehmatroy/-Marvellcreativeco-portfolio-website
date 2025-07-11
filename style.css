@@ -171,7 +171,6 @@ body{
 }
 .services-section .secondary-heading{
     color: #333333;
-    
     font-size: 1.3rem;
     font-weight: 600;
     margin-top: 0.5rem;
@@ -803,6 +802,7 @@ body{
 
 
 /* Portfolio Page Style */
+
 #portfolio-cards-section .card:hover{
     box-shadow: 1px 12px 12px rgba(0, 0, 0, 0.1);
     transition: .3s;
@@ -817,11 +817,9 @@ body{
     z-index: 1;
     position: relative;
 }
-
 #portfolio-cards-section .card:hover img {
     transform: scale(1.1); 
 }
-
 #portfolio-cards-section .card .card-badge{
     top:20px;
     left: 20px;
@@ -849,7 +847,6 @@ body{
     background-color: #ffffff;
     padding: 10px 12px;
     transition: 0.3s ease;
-
 }
 #portfolio-cards-section .card .view-icon:hover{
     background-color: #d9e4f1cc;
@@ -875,8 +872,153 @@ body{
 #portfolio-cards-section #blogs-cards:hover h5{
     color: #0066FF; 
 }
+.article-card {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.article-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.article-top-badge{
+    width: 70%;
+}
+.badge-featured {
+    font-size: 14px;
+    padding: 2px 8px;
+    border-radius: 30px;
+    background-color: #00ffaa26;
+    color: #0da472e1;
+    font-weight: 500;
+}
+.tag-badge {
+    background-color: #333333;
+    color: white;
+    padding: 0px 12px;
+    padding-bottom: 4px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 500;
+    display: inline-block;
+}
+.read-btn {
+    background-image: linear-gradient(90deg, #0066FF 0%, #00FFAA 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+.read-btn:hover {
+    background-image: linear-gradient(90deg, #0c5fdbff 0%, #11d291ff 100%);
+}
+
+.meta-info i {
+    margin-right: 6px;
+}
+
+.meta-info span {
+    margin-right: 16px;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+
+/* Contact Page Style */
+
+.card-box {
+    border-radius: 8px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+.card-box label{
+    font-weight: 600;
+    color: #333333;
+    font-size: 15px;
+    margin: 5px 3px;
+}
+.form-control, .form-select {
+    border-radius: 8px;
+    padding: 11px 14px;
+    font-size: 14px;
+}
+.send-btn {
+    background-image: linear-gradient(90deg, #0066FF 0%, #00FFAA 100%);
+    border:none;
+    font-weight: 600;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-wrap: nowrap;
+    width: 100%;
+    color: white;
+}
+.send-btn:hover{
+    background-image: linear-gradient(90deg, #0f5dd3ff 0%, #08e098ff 100%);
+}
+
+.info-card {
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.info-icon {
+    font-size: 20px;
+}
+.contact-us-icons{
+    background-image: linear-gradient(90deg, #0066FF 0%, #00FFAA 100%);
+    color: #ffffff;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+}
+#call{
+    background-image: linear-gradient(90deg, #2563eb 0%, #9333ea 100%);
+}
+#location{
+    background-image: linear-gradient(90deg, #ea580c 0%, #dc2626 100%);
+}
+#business-hours{
+    background-image: linear-gradient(90deg, #9333ea 0%, #db2777 100%);
+}
+.info-green {
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.05);
+}
+.info-title {
+    font-weight: 600;
+    color: #333333;
+}
+.cta-box {
+    background-image: linear-gradient(90deg, #0066FF 0%, #00FFAA 100%);
+    color: white;
+    border-radius: 8px;
+    padding: 24px;
+    margin-top: 20px;
+}
+.cta-btn {
+    width: 100%;
+    background-color: white;
+    border:1px solid #ffffffff;
+    color: #5f7afe;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+.cta-btn:hover{
+    background-color: transparent;
+    border:1px solid #ffffffff;
+    color: #ffffff;
+}
+
+
 
 /* Media Curies */
+
 @media (max-width: 992px) {
     .hero-section{
         padding-top: 8rem !important;
@@ -979,6 +1121,13 @@ body{
     .team-section{
         padding-right: 0 !important;
         padding-left: 0 !important;
+    }
+
+    .article-card{
+        width:100%;
+    }
+    .article-top-badge{
+        width:100%;
     }
 }
 
