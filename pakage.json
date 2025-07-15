@@ -1,6 +1,4 @@
 {
-  "name": "your-project",
-  "type": "module",
-  "dependencies": {
-  }
+  "name": "vercel-test",
+  "type": "module"
 }
