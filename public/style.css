@@ -50,16 +50,19 @@ body{
     margin-top: 0;
 }
 .dropdown-menu {
-    width: 100%;
-    max-width: 660px;
+    width: 60%;
+    max-width: 700px;
     padding: 1rem 1.5rem;
+    padding-bottom: 3rem;
     border-radius: 0.5rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     display: none;
+    height: 100vh;
+    overflow-y: scroll;
 }
 .dropdown-grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
 }
 
@@ -177,6 +180,34 @@ body{
     width: 80px;
     border: 2px solid #00FFAA;
 }
+
+/* Skills Section */
+.skill-box {
+    margin-bottom: 25px;
+}
+
+.progress {
+    height: 14px;
+    background-color: #333333;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-image: linear-gradient(to right, #0066ff 0%, #00ffaa 100%);
+    border-radius: 50px;
+}
+
+.skill-label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    color: #333333;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+
 
 /* Services-section */
 .primary-heading{
@@ -674,7 +705,7 @@ body{
     background: linear-gradient(to bottom right, #ecfeff, #eff6ff);
 }
 #ThreeD-modeling-top-icon{
-    background: linear-gradient(to right, #06b6d4, #3b82f6)!important;
+    background: linear-gradient(to right, #0e84c9ff, #16caeaff)!important;
 }
 .top-content-section .ThreeD-modeling-badge{
     background-color:rgba(6, 181, 212, 0.04) important;
@@ -682,22 +713,22 @@ body{
     width: 194px !important;
 }
 .top-content-section .ThreeD-modeling-main-text{
-    background-image: linear-gradient(90deg, #0891b2 0%, #2563eb 100%);
+    background-image: linear-gradient(90deg, #0e56c9ff 0%, #0db8d6ff 100%)!important;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .top-content-section #ThreeD-modeling-page-btn{
-    background-image: linear-gradient(90deg, #0891b2 0%, #2563eb 100%);
+    background-image: linear-gradient(90deg, #0e56c9ff 0%, #0db8d6ff 100%)!important;
 }
 .top-content-section #ThreeD-modeling-page-btn:hover{
-    background-image: linear-gradient(90deg,rgb(11, 128, 158) 0%,rgb(18, 76, 203) 100%);
+    background-image: linear-gradient(90deg, #1250b4ff 0%, #10a0b9ff 100%)!important;
 }
 .ThreeD-modeling-divider{
     width: 80px;
-    border: 2px solid #2563eb;
+    border: 2px solid #0e56c9ff;
 }
 .process-cards .process-cards-content .ThreeD-modeling-check-icon{
-    color: #2563eb;
+    color: #0e56c9ff;
     font-size: 20px;
     margin-top:5px;
 }
@@ -811,6 +842,265 @@ body{
 }
 .process-cards .process-cards-content .consultion-coaching-check-icon{
     color: #6366f1;
+    font-size: 20px;
+    margin-top:5px;
+}
+
+/* Blockchain-ai and Crypto Page Style */
+
+#Blockchain-ai-top-section{
+    background: linear-gradient(to bottom right, #fff7eeff, #fef5ffff);
+}
+#Blockchain-ai-top-icon{
+    background: linear-gradient(to right, #f17f63ff, #8c1af7ff)!important;
+}
+.top-content-section .Blockchain-ai-badge{
+    background-color: #f17f6318 !important;
+    color: #f17f63ff !important;
+    width: 194px !important;
+}
+.top-content-section .Blockchain-ai-badge:hover{
+    background-color: #dd60411f !important;
+}
+.top-content-section .Blockchain-ai-main-text{
+    background-image: linear-gradient(90deg, #f17f63ff 0%, #8c1af7ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.top-content-section #Blockchain-ai-page-btn{
+    background-image: linear-gradient(90deg, #f17f63ff 0%, #8c1af7ff 100%);
+}
+.top-content-section #Blockchain-ai-page-btn:hover{
+    background-image: linear-gradient(90deg, #df6d51ff 0%, #831ce3ff 100%);
+}
+.Blockchain-ai-divider{
+    width: 80px;
+    border: 2px solid #df6d51ff;
+}
+.process-cards .process-cards-content .Blockchain-ai-check-icon{
+    color: #df6d51ff;
+    font-size: 20px;
+    margin-top:5px;
+}
+
+/* Game-Develpment and Meteverse Page Style */
+
+#Game-Develpment-top-section{
+    background: linear-gradient(to bottom right, #fffdeeff, #f5faffff);
+}
+#Game-Develpment-top-icon{
+    background: linear-gradient(to right, #e51da9ff, #e7a31bdb )!important;
+}
+.top-content-section .Game-Develpment-badge{
+    background-color: #e51da91a !important;
+    color: #e51da9ff !important;
+    width: 256px !important;
+}
+.top-content-section .Game-Develpment-badge:hover{
+    background-color: #e51da91f !important;
+}
+.top-content-section .Game-Develpment-main-text{
+    background-image: linear-gradient(90deg, #e51da9ff 0%, #e7a31bdb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.top-content-section #Game-Develpment-page-btn{
+    background-image: linear-gradient(90deg, #e51da9ff 0%, #e7a31bdb 100%);
+}
+.top-content-section #Game-Develpment-page-btn:hover{
+    background-image: linear-gradient(90deg, #cc1395ff 0%, #cc8e11db 100%);
+}
+.Game-Develpment-divider{
+    width: 80px;
+    border: 2px solid #e51da9ff;
+}
+.process-cards .process-cards-content .Game-Develpment-check-icon{
+    color: #e51da9ff;
+    font-size: 20px;
+    margin-top:5px;
+}
+
+/* VR-AR-Development Page Style */
+
+#VR-AR-Development-top-section{
+    background: linear-gradient(to bottom right, #fffdeeff, #f5faffff);
+}
+#VR-AR-Development-top-icon{
+    background: linear-gradient(to right, #e0c811ff, #05d327ac)!important;
+}
+.top-content-section .VR-AR-Development-badge{
+    background-color: #05d32717!important;
+    color: #05d327ac !important;
+    width: 190px !important;
+}
+.top-content-section .VR-AR-Development-badge:hover{
+    background-color: #0ab8271c !important;
+}
+.top-content-section .VR-AR-Development-main-text{
+    background-image: linear-gradient(90deg, #e0c811ff 0%, #05d327ac 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.top-content-section #VR-AR-Development-page-btn{
+    background-image: linear-gradient(90deg, #e0c811ff 0%, #05d327ac 100%);
+}
+.top-content-section #VR-AR-Development-page-btn:hover{
+    background-image: linear-gradient(90deg, #cbb40aff 0%, #07ba25ac 100%);
+}
+.VR-AR-Development-divider{
+    width: 80px;
+    border: 2px solid #07ba25ac;
+}
+.process-cards .process-cards-content .VR-AR-Development-check-icon{
+    color: #07ba25ac;
+    font-size: 20px;
+    margin-top:5px;
+}
+
+/* Ai-medical and Healthcare Page Style */
+
+#Ai-medical-top-section{
+    background: linear-gradient(to bottom right, #f7f9f0ff, #f9f2f6ff);
+}
+#Ai-medical-top-icon{
+    background: linear-gradient(to right, #b0df23ff, #f0178eff)!important;
+}
+.top-content-section .Ai-medical-badge{
+    background-color: #f0178e16 !important;
+    color: #f0178eff !important;
+    width: 218px !important;
+}
+.top-content-section .Ai-medical-badge:hover{
+    background-color: #f0178e1e !important;
+}
+.top-content-section .Ai-medical-main-text{
+    background-image: linear-gradient(90deg, #b0df23ff 0%, #f0178eff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.top-content-section #Ai-medical-page-btn{
+    background-image: linear-gradient(90deg, #b0df23ff 0%, #f0178eff 100%);
+}
+.top-content-section #Ai-medical-page-btn:hover{
+    background-image: linear-gradient(90deg, #9ec91eff 0%, #cd167bff 100%);
+}
+.Ai-medical-divider{
+    width: 80px;
+    border: 2px solid #f0178eff;
+}
+.process-cards .process-cards-content .Ai-medical-check-icon{
+    color: #f0178eff;
+    font-size: 20px;
+    margin-top:5px;
+}
+
+/* Ai-hospitality and Tourism Page Style */
+
+#Ai-hospitality-top-section{
+    background: linear-gradient(to right, #f6fcffff, #f6ffffff)!important;
+}
+#Ai-hospitality-top-icon{
+    background-image: linear-gradient(90deg, #1500feec 0%, #a927dcec 100%) !important; 
+}
+.top-content-section .Ai-hospitality-badge{
+    background-color: #1500fe14!important;
+    color: #1500feec !important;
+    width: 200px !important;
+}
+.top-content-section .Ai-hospitality-badge:hover{
+    background-color: #1500fe21 !important;
+}
+.top-content-section .Ai-hospitality-main-text{
+    background-image: linear-gradient(90deg,  #1500feec 0%, #a927dcec 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.top-content-section #Ai-hospitality-page-btn{
+    background-image: linear-gradient(90deg,  #1500feec 0%, #a927dcec 100%);
+}
+.top-content-section #Ai-hospitality-page-btn:hover{
+    background-image: linear-gradient(90deg,  #1d0aeeec 0%, #9311c7ec 100%);
+}
+.Ai-hospitality-divider{
+    width: 80px;
+    border: 2px solid #1500feec;
+}
+.process-cards .process-cards-content .Ai-hospitality-check-icon{
+    color: #1500feec;
+    font-size: 20px;
+    margin-top:5px;
+}
+
+/* Ai-Saas-Development Page Style */
+
+#Ai-Saas-Development-top-section{
+    background: linear-gradient(to right, #fbfaefff, #fbf2faff)!important;
+}
+#Ai-Saas-Development-top-icon{
+    background-image: linear-gradient(90deg,  #f0dc46ff 0%, #bd1eb5ff 100%) !important;
+}
+.top-content-section .Ai-Saas-Development-badge{
+    background-color: #f0dc4616 !important;
+    color: #f0dc46ff !important;
+    width: 188px !important;
+}
+.top-content-section .Ai-Saas-Development-badge:hover{
+    background-color: #f0dc4627 !important;
+}
+.top-content-section .Ai-Saas-Development-main-text{
+    background-image: linear-gradient(90deg,  #f0dc46ff 0%, #bd1eb5ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.top-content-section #Ai-Saas-Development-page-btn{
+    background-image: linear-gradient(90deg,  #f0dc46ff 0%, #bd1eb5ff 100%) !important;
+}
+.top-content-section #Ai-Saas-Development-page-btn:hover{
+    background-image: linear-gradient(90deg,  #d2bf2eff 0%, #b518adff 100%) !important;
+}
+.Ai-Saas-Development-divider{
+    width: 80px;
+    border: 2px solid #d2bf2eff;
+}
+.process-cards .process-cards-content .Ai-Saas-Development-check-icon{
+    color: #d2bf2eff;
+    font-size: 20px;
+    margin-top:5px;
+}
+
+/* Ai-Calling-Agents Page Style */
+
+#Ai-Calling-Agents-top-section{
+    background: linear-gradient(to right, #faefefff, #f4fdfcff)!important;
+}
+#Ai-Calling-Agents-top-icon{
+    background-image: linear-gradient(90deg,   #ef0d0dff 0%, #10dcc8ff 100%) !important;
+}
+.top-content-section .Ai-Calling-Agents-badge{
+    background-color: #ef0d0d14 !important;
+    color: #ef0d0dff !important;
+    width: 240px !important;
+}
+.top-content-section .Ai-Calling-Agents-badge:hover{
+    background-color: #ef0d0d17 !important;
+}
+.top-content-section .Ai-Calling-Agents-main-text{
+    background-image: linear-gradient(90deg,   #ef0d0dff 0%, #10dcc8ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.top-content-section #Ai-Calling-Agents-page-btn{
+    background-image: linear-gradient(90deg, #ef0d0dff 0%, #10dcc8ff 100%) !important;
+}
+.top-content-section #Ai-Calling-Agents-page-btn:hover{
+    background-image: linear-gradient(90deg,   #dc1212f5 0%, #0dc4b2ee 100%) !important;
+}
+.Ai-Calling-Agents-divider{
+    width: 80px;
+    border: 2px solid #dc1212f5;
+}
+.process-cards .process-cards-content .Ai-Calling-Agents-check-icon{
+    color: #dc1212f5;
     font-size: 20px;
     margin-top:5px;
 }
